@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/favicon.png">
+    <title>A & T</title>
+    <link rel="stylesheet" href="nav_style.css" />
+
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet" href="footer_style.css" />
+    <link rel="stylesheet" href="mrStyle.css">
+    <style>
+        .content {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+        }
+
+        .contact-form {
+            background-color: #10182F;
+            padding: 20px 40px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 50%;
+            text-align: center;
+        }
+
+        .contact-form h2 {
+            margin-bottom: 20px;
+            font-size: 24px;
+            color: #fff;
+        }
+
+        .contact-form textarea,
+        .contact-form input[type="email"] {
+            width: calc(100% - 20px);
+            padding: 10px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            resize: vertical;
+            /* Allow resizing vertically */
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: blue;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #218838;
+        }
+
+        .separator {
+            border-top: 1px solid #ccc;
+            margin: 20px 0;
+        }
+
+        .contact-info {
+            font-size: 14px;
+            color: #fff;
+            text-align: left;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+
+        .or {
+
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body style="background-color: #10182F;" data-spy="scroll" data-target=".data-target" data-body-offset="0">
+    <div class="logo">
+        <a href="index.html" class="logo-small"><img src="images/logo-small.png" alt="" /></a>
+    </div>
+    <div class="hamburger-menu">
+        <nav class="nav">
+            <i class="uil uil-bars navOpenBtn" style="float: right;"></i>
+            <ul class="nav-links">
+                <i class="uil uil-times navCloseBtn"></i>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="index.html#portfolio">Our Products</a> </li>
+                <li><a href="index.html#blog">Quality Assurance</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="content">
+        <div class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <textarea id="message" name="message" rows="5" placeholder="Your message" required></textarea>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+                <input type="submit" value="Submit">
+            </form>
+            <div class="separator"></div>
+            <div class="contact-info or">
+                <p ><strong>OR</strong></p>
+                <p>Mobile Number: +1 956-597-4035</p>
+                <p>Email Address: <a href="mailto:info@atexportllc.com">info@atexportllc.com</a></p>
+            </div>
+        </div>
+
+    </div>
+
+    <section id="footer" class="footer">
+        <div class="footer-row">
+            <div class="footer-col">
+                <ul class="links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#portfolio">Our Products</a></li>
+                    <li><a href="index.html#blog">Quality Assurance</a></li>
+                    <li><a href="index.html#footer">Contact Us</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Catagories</h4>
+                <ul class="links">
+                    <li><a href="#">Beauty</a></li>
+                    <li><a href="#">Kitchen</a></li>
+                    <li><a href="#">Bed Sheets</a></li>
+                    <li><a href="#">Cosmatics</a></li>
+                    <li><a href="#">Art</a></li>
+                    <li><a href="#">Food</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="links">
+                    <li><a href="term_and_condition.html">Terms and conditions</a></li>
+                    <li><a href="privacy_poliecy.html">Privacy Policy</a></li>
+                    <li><a href="our_company.html">Our Company</a></li>
+                    <li><a href="contact_us.html">Contact Us</a></li>
+
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Sign Up</h4>
+                <p>
+                    Subscribe to our newsletter for a weekly dose
+                    of news, updates, helpful tips, and
+                    exclusive offers.
+                </p>
+                <form action="#">
+                    <input type="text" placeholder="Your email" required>
+                    <button type="submit">SIGNUP</button>
+                </form>
+                <div class="icons">
+                    <i class="fa-brands fa-facebook-f"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-github"></i>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+
+    <script>
+        const nav = document.querySelector(".nav"),
+            navOpenBtn = document.querySelector(".navOpenBtn"),
+            navCloseBtn = document.querySelector(".navCloseBtn");
+        navOpenBtn.addEventListener("click", () => {
+            nav.classList.add("openNav");
+        });
+        navCloseBtn.addEventListener("click", () => {
+            nav.classList.remove("openNav");
+        });
+        document.getElementById('contactForm').addEventListener('submit', function (event) {
+            event.preventDefault();
+            const message = document.getElementById('message').value;
+            const email = document.getElementById('email').value;
+
+            console.log(`Message: ${message}`);
+            console.log(`Email: ${email}`);
+
+            // Add your form submission code here, e.g., AJAX request
+            alert('Form submitted successfully!');
+        });
+    </script>
+</body>
+
+</html>
